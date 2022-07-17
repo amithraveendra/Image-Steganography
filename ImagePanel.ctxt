@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ImagePanel
+comment1.params=
+comment1.target=ImagePanel()
+comment2.params=
+comment2.target=void\ setLayoutManager()
+comment3.params=
+comment3.target=void\ setLocationAndSize()
+comment4.params=
+comment4.target=void\ addComponentsToContainer()
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=filechooser2
+comment1.params=
+comment1.target=filechooser2()
+comment2.params=
+comment2.target=void\ setLayoutManager()
+comment3.params=
+comment3.target=void\ setLocationAndSize()
+comment4.params=
+comment4.target=void\ addComponentsToContainer()
+comment5.params=
+comment5.target=void\ addActionEvent()
+comment6.params=evt
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.text=public\ static\ void\ main(String\ args[])\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ //\ frame\ to\ contains\ GUI\ elements\r\n\ \ \ \ \ \ \ \ JFrame\ f\ \=\ new\ JFrame("file\ chooser");\r\n\r\n\ \ \ \ \ \ \ \ //\ set\ the\ size\ of\ the\ frame\r\n\ \ \ \ \ \ \ \ f.setSize(400,\ 400);\r\n\r\n\ \ \ \ \ \ \ \ //\ set\ the\ frame's\ visibility\r\n\ \ \ \ \ \ \ \ f.setVisible(true);\r\n\r\n\ \ \ \ \ \ \ \ f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n\r\n\ \ \ \ \ \ \ \ //\ button\ to\ open\ save\ dialog\r\n\ \ \ \ \ \ \ \ JButton\ button1\ \=\ new\ JButton("save");\r\n\r\n\ \ \ \ \ \ \ \ //\ button\ to\ open\ open\ dialog\r\n\ \ \ \ \ \ \ \ JButton\ button2\ \=\ new\ JButton("open");\r\n\r\n\ \ \ \ \ \ \ \ //\ make\ an\ object\ of\ the\ class\ filechooser\r\n\ \ \ \ \ \ \ \ filechooser\ f1\ \=\ new\ filechooser();\r\n\r\n\ \ \ \ \ \ \ \ //\ add\ action\ listener\ to\ the\ button\ to\ capture\ user\r\n\ \ \ \ \ \ \ \ //\ response\ on\ buttons\r\n\ \ \ \ \ \ \ \ button1.addActionListener(f1);\r\n\ \ \ \ \ \ \ \ button2.addActionListener(f1);\r\n\r\n\ \ \ \ \ \ \ \ //\ make\ a\ panel\ to\ add\ the\ buttons\ and\ labels\r\n\ \ \ \ \ \ \ \ JPanel\ p\ \=\ new\ JPanel();\r\n\r\n\ \ \ \ \ \ \ \ //\ add\ buttons\ to\ the\ frame\r\n\ \ \ \ \ \ \ \ p.add(button1);\r\n\ \ \ \ \ \ \ \ p.add(button2);\r\n\r\n\ \ \ \ \ \ \ \ //\ set\ the\ label\ to\ its\ initial\ value\r\n\ \ \ \ \ \ \ \ l\ \=\ new\ JLabel("no\ file\ selected");\r\n\r\n\ \ \ \ \ \ \ \ //\ add\ panel\ to\ the\ frame\r\n\ \ \ \ \ \ \ \ p.add(l);\r\n\ \ \ \ \ \ \ \ f.add(p);\r\n\r\n\ \ \ \ \ \ \ \ f.show();\r\n}
+numComments=7
